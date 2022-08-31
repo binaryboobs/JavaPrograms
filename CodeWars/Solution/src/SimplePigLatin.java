@@ -20,3 +20,5 @@ public class SimplePigLatin {
       pigIt("This is my string");
    }
 }
+
+//BEST SOLUTION: `return str.replaceAll("(\\w)(\\w*)", "$2$1ay");`
